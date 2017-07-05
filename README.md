@@ -7,13 +7,13 @@ package to compute bounded TMLE estimates of cumulative incidence.
 Installation
 ------------
 
-The latest version of survtmle can be installed from GitHub as follows.
+The version of survtmle used in the paper can be installed from GitHub as follows.
 
     # need the devtools package to install from GitHub
     library(devtools)
 
     # install survtmle from github
-    install_github("benkeser/survtmle")
+    install_github("benkeser/survtmle",ref="b7b3ccf0e01adc1cc958166ce5ccc0cc8aa9b5e9")
 
     # load survtmle
     library(survtmle)
